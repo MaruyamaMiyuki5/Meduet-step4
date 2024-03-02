@@ -27,16 +27,7 @@ MYSQL_USER = os.getenv("MYSQL_USER")
 MYSQL_PASSWORD = os.getenv("MYSQL_PASSWORD")
 MYSQL_DB = os.getenv("MYSQL_DB")
 
-# 環境変数からデータベース情報を取得
-# MYSQL_SERVER = os.getenv("tech0-db-step4-studentrdb-9.mysql.database.azure.com")
-# MYSQL_USER = os.getenv("tech0gen5student")
-# MYSQL_PASSWORD = os.getenv("vY7JZNfU9")
-# MYSQL_DB = os.getenv("mydatabase")
 
-# MYSQL_SERVER = "tech0-db-step4-studentrdb-9.mysql.database.azure.com"
-# MYSQL_USER = "tech0gen5student"
-# MYSQL_PASSWORD = "vY7JZNfU9"
-# MYSQL_DB = "mydatabase"
 
 class ProductQuery(BaseModel):
     code: str
